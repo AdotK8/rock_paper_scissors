@@ -1,0 +1,58 @@
+* { 
+    font-family:fantasy;
+
+    /* border: solid 1px; */
+    background-color: rgba(38,0,111,255);
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    margin: 30px; 
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.title { 
+    font-size: 70px;
+    font-family: 'bebas neue';
+}
+
+.icon {
+    width: 250px; 
+    margin: 20px;
+}
+
+#rock:hover { 
+    transform: scale(1.2);
+}
+
+#paper:hover { 
+    transform: scale(1.2);
+}
+
+#scissors:hover {
+    transform: scale(1.2);
+}
+
+#scissors { 
+    height: 300px;
+}
+
+.icons { 
+    /* display: flex; */
+    gap: 10px; 
+    flex-grow: 0; 
+    margin: 20px;
+}
+
+.scoreboard { 
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+
+}
